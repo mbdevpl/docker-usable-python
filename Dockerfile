@@ -20,7 +20,9 @@ RUN pip3 install semver
 RUN pip3 install pylint coverage mypy hypothesis
 
 # io packages
-RUN pip3 install requests wget defusedxml lxml mpi4py
+RUN pip3 install requests wget
+RUN pip3 install defusedxml lxml
+#RUN pip3 install mpi4py
 
 # sci packages
 RUN pip3 install networkx
@@ -31,6 +33,9 @@ RUN pip3 install Pillow
 RUN pip3 install matplotlib
 RUN pip3 install tables
 RUN pip3 install pandas
+
+# accelerator packages
+#RUN pip3 install pyopencl
 
 # code gen packages
 RUN pip3 install astunparse
