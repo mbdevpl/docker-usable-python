@@ -1,5 +1,7 @@
 FROM python:3.6
 
+MAINTAINER Mateusz Bysiek <mateusz.bysiek.spam@gmail.com>
+
 RUN python --version
 RUN python3 --version
 
