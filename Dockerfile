@@ -10,6 +10,9 @@ RUN pip3 install pipdeptree pip-autoremove
 
 # utility packages
 RUN pip3 install colorama
+RUN pip3 install ordered-set
+RUN pip3 install python-dateutil
+#RUN pip3 install readchar
 RUN pip3 install six
 RUN pip3 install tzlocal
 
@@ -19,7 +22,9 @@ RUN pip3 install semver
 RUN pip3 install version-query
 
 # code anlysis packages
-RUN pip3 install pylint coverage mypy hypothesis
+RUN pip3 install coverage hypothesis
+RUN pip3 install mypy
+RUN pip3 install pylint
 
 # io packages
 RUN pip3 install requests wget
@@ -40,6 +45,7 @@ RUN pip3 install pandas
 #RUN pip3 install pyopencl
 
 # code gen packages
+RUN pip3 install asttokens
 RUN pip3 install astunparse
 RUN pip3 install loo.py
 RUN pip3 install typed-ast
@@ -51,6 +57,7 @@ RUN pip3 install motionless
 RUN pip3 install haversine
 
 # ipython/jupyter packages
+RUN pip3 install ipython
 RUN pip3 install jupyter notebook ipyparallel
 
 #CMD ["python3", "-m", "ipython"]
