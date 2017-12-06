@@ -66,5 +66,7 @@ RUN pip3 install jupyter notebook ipyparallel
 
 RUN pip3 freeze
 
-#CMD ["python3", "-m", "ipython"]
-#CMD ["python3", "-m", "jupyter", "notebook"]
+WORKDIR /root
+
+echo "python3 -m ipython" > .bash_history
+echo "python3 -m jupyter notebook --ip=0.0.0.0 --port=8080 --allow-root" > .bash_history
