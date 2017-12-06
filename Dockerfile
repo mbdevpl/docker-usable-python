@@ -64,5 +64,7 @@ RUN pip3 install pycountry
 RUN pip3 install ipython
 RUN pip3 install jupyter notebook ipyparallel
 
+RUN pip3 freeze
+
 #CMD ["python3", "-m", "ipython"]
 #CMD ["python3", "-m", "jupyter", "notebook"]
