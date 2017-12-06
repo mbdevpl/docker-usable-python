@@ -24,9 +24,11 @@ RUN pip3 install version-query
 # code anlysis packages
 RUN pip3 install coverage hypothesis
 RUN pip3 install mypy
+RUN pip3 install pycodestyle
 RUN pip3 install pylint
 
 # io packages
+RUN pip3 install oauthlib
 RUN pip3 install requests wget
 RUN pip3 install defusedxml lxml
 #RUN pip3 install mpi4py
@@ -34,7 +36,7 @@ RUN pip3 install defusedxml lxml
 # sci packages
 RUN pip3 install networkx
 RUN pip3 install pymbolic sympy
-RUN pip3 install numpy scipy
+RUN pip3 install numpy Bottleneck scipy
 RUN pip3 install statsmodels
 RUN pip3 install Pillow
 RUN pip3 install matplotlib
@@ -48,6 +50,7 @@ RUN pip3 install pandas
 RUN pip3 install asttokens
 RUN pip3 install astunparse
 RUN pip3 install loo.py
+#RUN pip3 install PyLaTeX
 RUN pip3 install typed-ast
 RUN pip3 install typed-astunparse
 RUN pip3 install Cython numba Nuitka
@@ -55,6 +58,7 @@ RUN pip3 install Cython numba Nuitka
 # geo packages
 RUN pip3 install motionless
 RUN pip3 install haversine
+RUN pip3 install pycountry
 
 # ipython/jupyter packages
 RUN pip3 install ipython
