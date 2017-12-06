@@ -1,12 +1,11 @@
-FROM python:3.6
+FROM mbdevpl/usable-ubuntu
 
 MAINTAINER Mateusz Bysiek <mateusz.bysiek.spam@gmail.com>
 
-RUN python --version
 RUN python3 --version
+RUN pip3 --version
 
 # package management packages
-RUN pip3 install -U pip setuptools wheel twine
 RUN pip3 install pipdeptree pip-autoremove
 
 # utility packages
@@ -17,6 +16,7 @@ RUN pip3 install tzlocal
 # versioning packages
 RUN pip3 install GitPython
 RUN pip3 install semver
+RUN pip3 install version-query
 
 # code anlysis packages
 RUN pip3 install pylint coverage mypy hypothesis
@@ -53,8 +53,5 @@ RUN pip3 install haversine
 # ipython/jupyter packages
 RUN pip3 install jupyter notebook ipyparallel
 
-# AST analysis packages
-RUN pip3 install horast static-typing
-
-#CMD ["bash"]
-CMD ["ipython3", "-m", "jupyter", "notebook"]
+#CMD ["python3", "-m", "ipython"]
+#CMD ["python3", "-m", "jupyter", "notebook"]
