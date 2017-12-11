@@ -68,5 +68,12 @@ RUN pip3 freeze
 
 WORKDIR /root
 
-RUN echo "python3 -m ipython" > .bash_history
-RUN echo "python3 -m jupyter notebook --ip=0.0.0.0 --port=8080 --allow-root" > .bash_history
+RUN echo "python3 -m ipython" >> .bash_history
+RUN echo "python3 -m jupyter notebook --ip=0.0.0.0 --port=8080 --allow-root" >> .bash_history
+
+USER user
+
+WORKDIR /home/user
+
+RUN echo "python3 -m ipython" >> .bash_history
+RUN echo "python3 -m jupyter notebook --ip=0.0.0.0 --port=8080" >> .bash_history
