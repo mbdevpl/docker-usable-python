@@ -2,6 +2,8 @@ FROM mbdevpl/usable-ubuntu
 
 MAINTAINER Mateusz Bysiek <mateusz.bysiek.spam@gmail.com>
 
+USER root
+
 RUN python3 --version
 RUN pip3 --version
 
