@@ -1,0 +1,3 @@
+python3 -m ipython
+python3 -m jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
+python3 -m jupyter notebook --ip="$(hostname -i)" --port=8888 --allow-root
