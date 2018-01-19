@@ -44,12 +44,12 @@ pip3 install pandas
 # accelerator packages
 #pip3 install pyopencl
 
-# code gen packages
+# code/ast manipulation packages
 pip3 install asttokens
 pip3 install astunparse
 pip3 install loo.py
 #pip3 install PyLaTeX
-pip3 install typed-ast
+pip3 install typed_ast
 pip3 install typed-astunparse
 pip3 install Cython numba Nuitka
 
