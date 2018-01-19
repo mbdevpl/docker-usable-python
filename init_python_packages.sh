@@ -51,6 +51,9 @@ pip3 install loo.py
 #pip3 install PyLaTeX
 pip3 install typed_ast
 pip3 install typed-astunparse
+pip3 install ply # workaround for broken packaging of pcpp
+pip3 install git+https://github.com/ned14/pcpp.git # workaround for broken packaging of pcpp
+pip3 install pycparser
 pip3 install Cython numba Nuitka
 
 # geo packages
