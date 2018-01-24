@@ -44,6 +44,10 @@ pip3 install pandas
 # accelerator packages
 #pip3 install pyopencl
 
+# deep learning packages
+pip3 install chainer
+pip3 install Keras
+
 # code/ast manipulation packages
 pip3 install asttokens
 pip3 install astunparse

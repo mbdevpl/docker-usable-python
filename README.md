@@ -8,5 +8,6 @@ The feature categories include but aren't limited to:
 * numerics and data science (numpy, scipy, pandas, matplotlib, ...)
 * parsing, compilation and code generation (numba, Cython, astunparse, typed_ast, ...)
 * interactive interfaces (ipython, notebook, ...)
+* deep learning (chainer, keras)
 
 See the [Dockerfile](Dockerfile) and [latest build logs](https://cloud.docker.com/app/mbdevpl/repository/docker/mbdevpl/usable-python/builds) for details.
