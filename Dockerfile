@@ -1,4 +1,4 @@
-FROM mbdevpl/usable-ubuntu:latest
+FROM mbdevpl/usable-ubuntu:18.04
 
 MAINTAINER Mateusz Bysiek <mateusz.bysiek.spam@gmail.com>
 
