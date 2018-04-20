@@ -6,13 +6,15 @@ pip3 --version
 # package management packages
 pip3 install pipdeptree pip-autoremove
 
-# utility packages
+# utility / general-purpose packages
 pip3 install colorama
 pip3 install ordered-set
 pip3 install python-dateutil
-#pip3 install readchar
+pip3 install readchar==0.1.0
 pip3 install six
 pip3 install tzlocal
+pip3 install docutils
+pip3 install more-itertools
 
 # versioning packages
 pip3 install GitPython
@@ -24,6 +26,7 @@ pip3 install coverage hypothesis
 pip3 install mypy
 pip3 install pycodestyle
 pip3 install pylint
+pip3 install flake8
 
 # io packages
 pip3 install oauthlib
