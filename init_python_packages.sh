@@ -1,4 +1,5 @@
 #!/bin/bash
+set -Eeuxo pipefail
 
 python3 --version
 pip3 --version
