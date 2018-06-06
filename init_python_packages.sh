@@ -10,12 +10,15 @@ pip3 install pipdeptree pip-autoremove
 # utility / general-purpose packages
 pip3 install colorama
 pip3 install ordered-set
-pip3 install python-dateutil
 pip3 install readchar==0.1.0
 pip3 install six
-pip3 install tzlocal
 pip3 install docutils
 pip3 install more-itertools
+
+# date/time manipulation packages
+pip3 install python-dateutil
+pip3 install parsedatetime
+pip3 install tzlocal
 
 # versioning packages
 pip3 install GitPython
