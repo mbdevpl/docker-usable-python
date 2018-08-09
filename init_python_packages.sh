@@ -31,6 +31,8 @@ pip3 install mypy
 pip3 install pycodestyle
 pip3 install pylint
 pip3 install flake8
+pip3 install line_profiler
+pip3 install memory_profiler
 
 # io packages
 pip3 install oauthlib
