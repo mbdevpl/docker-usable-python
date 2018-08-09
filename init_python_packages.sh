@@ -48,9 +48,6 @@ pip3 install matplotlib
 pip3 install tables
 pip3 install pandas
 
-# accelerator packages
-#pip3 install pyopencl
-
 # deep learning packages
 pip3 install chainer
 pip3 install Keras
@@ -59,11 +56,9 @@ pip3 install Keras
 pip3 install asttokens
 pip3 install astunparse
 pip3 install loo.py
-#pip3 install PyLaTeX
 pip3 install typed_ast
 pip3 install typed-astunparse
-pip3 install ply # workaround for broken packaging of pcpp
-pip3 install git+https://github.com/ned14/pcpp.git # workaround for broken packaging of pcpp
+pip3 install pcpp
 pip3 install pycparser
 pip3 install Cython numba Nuitka
 
