@@ -1,3 +1,7 @@
+# NOTICE
+
+This repository is archived, see https://github.com/mbdevpl/docker-usable-ubuntu instead.
+
 # Usable Python
 
 Python 3.6 with many useful packages pre-installed for convenience.
